@@ -1,0 +1,109 @@
+@import '~antd/dist/antd.css';
+@import './fonts/index.css';
+
+/* // // Color
+// $DefaultColor: #dedede;
+// $PrimaryColor: #00b96b;
+// $NotificationColor: #d2a700;
+// $ErrorColor: #ba4a00;
+// $AlertColor: #ba4a00;
+// $MenuBackground:#434544;
+// $MenuHoverItem: #2d2f2e;
+// $ColorText: #FFFFFF;
+
+
+// // Font Name
+// $FontText: 'Freight Sans';
+// $DefaultFont: sans-serif; */
+
+body {
+    font-family: 'Freight Sans', sans-serif;
+}
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.app-menu_container {
+    margin-top: 50px;
+}
+
+.menu-box_container {
+    margin-top: 50px;
+    height: 40px;
+    background-color: #434544;
+    border-radius: 3px;
+    display: flex;
+}
+
+.menu-box_container a {
+
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        color: #FFFFFF;
+}
+
+.menu-box_container a.active {
+    background-color: #2d2f2e;
+}
+
+.menu-box_container a:hover {
+    background-color: #2d2f2e;
+}
+
+.route-container-app {
+    margin-top: 50px;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.group-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input.ant-input:hover {
+    border-color: #00b96b;
+}
+
+input.ant-input:focus {
+    border-color: #00b96b;
+    box-shadow: 0 0 0 2px rgba(0, 185, 107, 0.5);
+}
+
+.ant-picker:hover {
+    border-color: #00b96b;
+}
+
+.ant-picker-focused {
+    border-color: #00b96b;
+    box-shadow: 0 0 0 2px rgba(0, 185, 107, 0.5);
+}
+
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+    border-color: #00b96b;
+}
+
+.ant-select-focused.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    border-color: #00b96b;
+    box-shadow: 0 0 0 2px rgba(0, 185, 107, 0.5);
+}
+
+.ant-upload.ant-upload-select-picture-card:hover {
+    border-color: #00b96b;
+}
+
+
+@import './responsive.css';
