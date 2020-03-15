@@ -12,6 +12,8 @@ function RouterApp() {
         path={route.path}
         component={route.component} 
         key={route.name} 
+        exact
+        strict
         />
       ))}
     </Switch>
